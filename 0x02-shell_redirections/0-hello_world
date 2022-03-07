@@ -1,2 +1,2 @@
 #!/bin/bash
-Hello, World >>word 2>&1
+Hello, World

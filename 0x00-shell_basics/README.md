@@ -21,3 +21,6 @@ file name | Description
 `12-file_type` | Prints the type of the file named `iamafile` that is in the `/tmp/` directory
 `13-symbolic_link` | Creates a symbolic link to `/bin/ls`, named `__ls__`
 `14-copy_html` | Copies all the HTML files from the current working directory to the parent directory, but only copies files that did not exist in the parent directory
+`100-lets_move` | Moves all files beginning with an uppercase letter to the directory `/tmp/u`
+`101-clean_emacs` | Deletes all files in the current working directory that end with the character `~`
+`102-tree` | Create the directories `welcome/`, `welcome/to/`

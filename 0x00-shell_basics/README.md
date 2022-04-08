@@ -4,3 +4,5 @@ Project done during **_Full Stack Engineering studies_** at **_ALX School_**. It
 * Scripts tested using Ubuntu 20.04LTS
 ## Files
 File name | Description
+--- | ---
+`0-current_working_directory` | Prints the absolute path name of the current working directory

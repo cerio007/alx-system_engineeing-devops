@@ -2,5 +2,7 @@
 # Script that installs Nginx server
 apt-get -y update
 apt-get -y install nginx
+curl -4 icanhazip.com
+sudo ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.html
 service nginx start

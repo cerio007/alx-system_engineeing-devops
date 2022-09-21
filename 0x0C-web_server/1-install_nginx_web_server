@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # Script that installs Nginx server
-apt-get -y update
 apt-get -y install nginx
 curl -4 icanhazip.com
 ufw allow 'Nginx HTTP'
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 service nginx start
